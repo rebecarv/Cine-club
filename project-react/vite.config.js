@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  Base: '/Cine-club/',
+  base: '/Cine-club/',
   plugins: [react(), tailwindcss()],
 })
 
